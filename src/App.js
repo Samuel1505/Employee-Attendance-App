@@ -10,9 +10,9 @@ function App() {
   const handleAddEmployee = () => {
     if (id.trim() !== '' && name.trim() !== '') {
       setEmployees([...employees, { id, name, status }]);
-      setId(''); // Reset ID field
-      setName(''); // Reset name field
-      setStatus('Present'); // Reset status field
+      setId(''); 
+      setName(''); 
+      setStatus('Present'); 
     }
   };
 
